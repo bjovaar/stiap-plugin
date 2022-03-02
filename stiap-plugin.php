@@ -23,10 +23,10 @@
 /**
  * Load plugin textdomain.
  */
-function stiapwidget_init() {
+function stiapplugin_init() {
     load_plugin_textdomain( 'stiap-lang', false, dirname(plugin_basename( __FILE__ ) ) . '/languages' ); 
 }
-add_action( 'plugins_loaded', 'stiapwidget_init' );
+add_action( 'plugins_loaded', 'stiapplugin_init' );
 
 
 
